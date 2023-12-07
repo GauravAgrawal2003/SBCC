@@ -4,6 +4,7 @@
 .green-text {
   color: #abd07e !important;
 }
+
 .green-text:hover {
   background-color: #abd07e !important;
   color: #fff !important;
@@ -263,6 +264,7 @@ img[src="assets/images/blank.gif"] {
 }
 .outer-top-xs {
   margin-top: 30px;
+  background: #12cca7;
 }
 .outer-top-vs {
   margin-top: 40px;
