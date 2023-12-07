@@ -70,7 +70,7 @@ exit();
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Shopping Portal | Signi-in | Signup</title>
+	    <title>Swarajya Paithani | Signi-in | Signup</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -172,7 +172,7 @@ error:function (){}
 				<!-- Sign-in -->			
 <div class="col-md-6 col-sm-6 sign-in">
 	<h4 class="">sign in</h4>
-	<p class="">Hello, Welcome to Swaraj Paithani.</p>
+	<p class="">Hello, Welcome to your account.</p>
 	<form class="register-form outer-top-xs" method="post">
 	<span style="color:red;" >
 <?php
@@ -248,7 +248,6 @@ echo htmlentities($_SESSION['errmsg']="");
 </div>	
 <!-- create a new account -->			</div><!-- /.row -->
 		</div>
-<?php include('includes/brands-slider.php');?>
 </div>
 </div>
 <?php include('includes/footer.php');?>

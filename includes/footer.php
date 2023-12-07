@@ -16,7 +16,7 @@
     </div><!-- /.footer-logo -->
 
      <div class="module-body m-t-20">
-        <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
+        <p class="about-us"> Swarajya Paithani is a renowned name in the world of handloom sarees, particularly known for their exquisite Paithani sarees.</p>
     
         <div class="social-icons">
             
@@ -70,7 +70,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>Surigao City, Philippines</p>
+                    <p>Nagade Tal-Yeola Dist-Nashik 423-401, Nashik, Maharashtra 423401</p>
                 </div>
             </li>
 
@@ -82,20 +82,9 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>(011) 000000000000<br>(011) 000000000000</p>
+                    <p>+91 93564 72619</p>
                 </div>
             </li>
-
-              <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <span><a href="https://www.campcodes.com/">www.campcodes.com</a></span>
-                </div>
             </li>
               
             </ul>

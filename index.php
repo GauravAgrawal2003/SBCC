@@ -21,7 +21,6 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		echo "<script type='text/javascript'> document.location ='my-cart.php'; </script>";
 }
 
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,12 +33,9 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<meta name="author" content="">
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
-
 	    <title>Swarajya Paithani HomePage</title>
-
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	    
 	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
@@ -50,10 +46,8 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-
 		<!-- Demo Purpose Only. Should be removed in production -->
 		<link rel="stylesheet" href="assets/css/config.css">
-
 		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
 		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
 		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
@@ -61,16 +55,12 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<link href="assets/css/dark-green.css" rel="alternate stylesheet" title="Darkgreen color">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
-
 	</head>
     <body class="cnt-home">
-	
-		
-	
-		<!-- ============================================== HEADER ============================================== -->
+
+<!-- ============================================== HEADER ============================================== -->
 <header class="header-style-1">
 <?php include('includes/top-header.php');?>
 <?php include('includes/main-header.php');?>
@@ -84,30 +74,27 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<div class="row">
 		
 			<div class="col-xs-12 col-sm-12 col-md-3 sidebar">
-				<!-- ================================== TOP NAVIGATION ================================== -->
+<!-- ================================== TOP NAVIGATION ================================== -->
 	<?php include('includes/side-menu.php');?>
 <!-- ================================== TOP NAVIGATION : END ================================== -->
 			</div><!-- /.sidemenu-holder -->	
-			
 			<div class="col-xs-12 col-sm-12 col-md-9 homebanner-holder">
-				<!-- ========================================== SECTION – HERO ========================================= -->
-			
+<!-- ========================================== SECTION – HERO ========================================= -->
 <div id="hero" class="homepage-slider3">
 	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
 		<div class="full-width-slider">	
-			<div class="item" style="background-image: url(assets/images/sliders/ps1.webp);">
+			<div class="item" style="background-image: url(assets/images/sliders/slider11.png);">
 				<!-- /.container-fluid -->
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 	    
 	    <div class="full-width-slider">
-			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/ps3.webp);">
+			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.png);">
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 
 	</div><!-- /.owl-carousel -->
 </div>
-			
 <!-- ========================================= SECTION – HERO : END ========================================= -->	
 				<!-- ============================================== INFO BOXES ============================================== -->
 <div class="info-boxes wow fadeInUp">
@@ -117,7 +104,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 				<div class="info-box">
 					<div class="row">
 						<div class="col-xs-2">
-						     <i class="icon fa fa-dollar"></i>
+						<i class="icon fa fa-inr"></i>
 						</div>
 						<div class="col-xs-10">
 							<h4 class="info-box-heading green">money back</h4>
@@ -137,7 +124,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<h4 class="info-box-heading orange">free shipping</h4>
 						</div>
 					</div>
-					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+					<h6 class="text">free ship-on oder over Rs. 6000.00</h6>	
 				</div>
 			</div><!-- .col -->
 
@@ -156,24 +143,19 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 			</div><!-- .col -->
 		</div><!-- /.row -->
 	</div><!-- /.info-boxes-inner -->
-	
 </div><!-- /.info-boxes -->
 <!-- ============================================== INFO BOXES : END ============================================== -->		
 			</div><!-- /.homebanner-holder -->
 			
 		</div><!-- /.row -->
-
 		<!-- ============================================== SCROLL TABS ============================================== -->
 		<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
 			   <h3 class="new-product-title pull-left">Featured Products</h3>
 				<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
 					<li class="active"><a href="#all" data-toggle="tab">All</a></li>
-					<li><a href="#Paithanis" data-toggle="tab">Paithanis</a></li>
-					<li><a href="#Lehengas" data-toggle="tab">Lehengas</a></li>
 				</ul><!-- /.nav-tabs -->
 			</div>
-
 			<div class="tab-content outer-top-xs">
 				<div class="tab-pane in active" id="all">			
 					<div class="product-slider">
@@ -183,11 +165,7 @@ $ret=mysqli_query($con,"select * from products");
 while ($row=mysqli_fetch_array($ret)) 
 {
 	# code...
-
-
-?>
-
-						    	
+?>	
 		<div class="item item-carousel">
 			<div class="products">
 				
@@ -196,22 +174,17 @@ while ($row=mysqli_fetch_array($ret))
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
-			</div><!-- /.image -->			
-
-			                        		   
+			</div><!-- /.image -->			                  		   
 		</div><!-- /.product-image -->
 			
-		
 		<div class="product-info text-left">
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
 			<div class="description"></div>
-
 			<div class="product-price">	
 				<span class="price">
 					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
-									
+										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>			
 			</div><!-- /.product-price -->
 			
 		</div><!-- /.product-info -->
@@ -221,18 +194,12 @@ while ($row=mysqli_fetch_array($ret))
 						<div class="action" style="color:red">Out of Stock</div>
 					<?php } ?>
 			</div><!-- /.product -->
-      
 			</div><!-- /.products -->
 		</div><!-- /.item -->
 	<?php } ?>
-
 			</div><!-- /.home-owl-carousel -->
 					</div><!-- /.product-slider -->
 				</div>
-
-
-
-
 	<div class="tab-pane" id="books">
 					<div class="product-slider">
 						<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
@@ -241,37 +208,27 @@ $ret=mysqli_query($con,"select * from products where category=3");
 while ($row=mysqli_fetch_array($ret)) 
 {
 	# code...
-
-
 ?>
-
-						    	
+		    	
 		<div class="item item-carousel">
-			<div class="products">
-				
+			<div class="products">	
 	<div class="product">		
 		<div class="product-image">
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
-			</div><!-- /.image -->			
-
-			                        		   
+			</div><!-- /.image -->			                     		   
 		</div><!-- /.product-image -->
 			
-		
 		<div class="product-info text-left">
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
 			<div class="description"></div>
-
 			<div class="product-price">	
 				<span class="price">
 					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
-									
+										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>					
 			</div><!-- /.product-price -->
-			
 		</div><!-- /.product-info -->
 				<?php if($row['productAvailability']=='In Stock'){?>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
@@ -283,17 +240,9 @@ while ($row=mysqli_fetch_array($ret))
 			</div><!-- /.products -->
 		</div><!-- /.item -->
 	<?php } ?>
-	
-		
 								</div><!-- /.home-owl-carousel -->
 					</div><!-- /.product-slider -->
 				</div>
-
-
-
-
-
-
 		<div class="tab-pane" id="furniture">
 					<div class="product-slider">
 						<div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
@@ -301,9 +250,7 @@ while ($row=mysqli_fetch_array($ret))
 $ret=mysqli_query($con,"select * from products where category=5");
 while ($row=mysqli_fetch_array($ret)) 
 {
-?>
-
-						    	
+?>	    	
 		<div class="item item-carousel">
 			<div class="products">
 				
@@ -312,9 +259,7 @@ while ($row=mysqli_fetch_array($ret))
 			<div class="image">
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>">
 				<img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300" alt=""></a>
-			</div>		
-
-			                        		   
+			</div>		               		   
 		</div>
 			
 		
@@ -322,14 +267,12 @@ while ($row=mysqli_fetch_array($ret))
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
 			<div class="description"></div>
-
 			<div class="product-price">	
 				<span class="price">
 					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
 										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
-			
 		</div>
 				<?php if($row['productAvailability']=='In Stock'){?>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
@@ -337,35 +280,26 @@ while ($row=mysqli_fetch_array($ret))
 						<div class="action" style="color:red">Out of Stock</div>
 					<?php } ?>
 			</div>
-      
 			</div>
 		</div>
 	<?php } ?>
-	
-		
 								</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		    
-
          <!-- ============================================== TABS ============================================== -->
 			<div class="sections prod-slider-small outer-top-small">
 				<div class="row">
 					<div class="col-md-6">
 	                   <section class="section">
-	                   	<h3 class="section-title">Paithanis</h3>
-	                   	<div class="owl-carousel homepage-owl-carousel custom-carousel outer-top-xs owl-theme" data-item="2">
-	   
+	                   	
 <?php
 $ret=mysqli_query($con,"select * from products where category=4 and subCategory=4");
 while ($row=mysqli_fetch_array($ret)) 
 {
 ?>
-
-
-
 		<div class="item item-carousel">
 			<div class="products">
 				
@@ -375,20 +309,17 @@ while ($row=mysqli_fetch_array($ret))
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="180" height="300"></a>
 			</div><!-- /.image -->			                        		   
 		</div><!-- /.product-image -->
-			
-		
+
 		<div class="product-info text-left">
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
 			<div class="description"></div>
-
 			<div class="product-price">	
 				<span class="price">
 					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
 										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
-			
 		</div>
 				<?php if($row['productAvailability']=='In Stock'){?>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
@@ -399,23 +330,16 @@ while ($row=mysqli_fetch_array($ret))
 			</div>
 		</div>
 <?php }?>
-
-	
 			                   	</div>
 	                   </section>
 					</div>
 					<div class="col-md-6">
 						<section class="section">
-							<h3 class="section-title">Lehengas</h3>
-		                   	<div class="owl-carousel homepage-owl-carousel custom-carousel outer-top-xs owl-theme" data-item="2">
-	<?php
+							<?php
 $ret=mysqli_query($con,"select * from products where category=4 and subCategory=6");
 while ($row=mysqli_fetch_array($ret)) 
 {
 ?>
-
-
-
 		<div class="item item-carousel">
 			<div class="products">
 				
@@ -425,20 +349,15 @@ while ($row=mysqli_fetch_array($ret))
 				<a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><img  src="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']);?>/<?php echo htmlentities($row['productImage1']);?>"  width="300" height="300"></a>
 			</div><!-- /.image -->			                        		   
 		</div><!-- /.product-image -->
-			
-		
 		<div class="product-info text-left">
 			<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']);?>"><?php echo htmlentities($row['productName']);?></a></h3>
 			<div class="rating rateit-small"></div>
 			<div class="description"></div>
-
 			<div class="product-price">	
 				<span class="price">
 					Rs .<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
-									
+										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>		
 			</div>
-			
 		</div>
 				<?php if($row['productAvailability']=='In Stock'){?>
 					<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Add to Cart</a></div>
@@ -449,36 +368,20 @@ while ($row=mysqli_fetch_array($ret))
 			</div>
 		</div>
 <?php }?>
-
-		
-	
 				                   	</div>
 	                   </section>
-
 					</div>
 				</div>
 			</div>
 		<!-- ============================================== TABS : END ============================================== -->
-
-		
-
-	<section class="section featured-product inner-xs wow fadeInUp">
-		<h3 class="section-title">Dupattas</h3>
-		<div class="owl-carousel best-seller custom-carousel owl-theme outer-top-xs">
 			<?php
 $ret=mysqli_query($con,"select * from products where category=6");
 while ($row=mysqli_fetch_array($ret)) 
 {
 	# code...
-
-
 ?>
 				<div class="item">
 					<div class="products">
-
-
-
-
 												<div class="product">
 							<div class="product-micro">
 								<div class="row product-micro-row">
@@ -513,8 +416,6 @@ while ($row=mysqli_fetch_array($ret))
 								</div><!-- /.product-micro-row -->
 							</div><!-- /.product-micro -->
 						</div>
-
-
 											</div>
 				</div><?php } ?>
 							</div>
@@ -523,14 +424,10 @@ while ($row=mysqli_fetch_array($ret))
 </div>
 </div>
 <?php include('includes/footer.php');?>
-	
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	
 	<script src="assets/js/bootstrap.min.js"></script>
-	
 	<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
-	
 	<script src="assets/js/echo.min.js"></script>
 	<script src="assets/js/jquery.easing-1.3.min.js"></script>
 	<script src="assets/js/bootstrap-slider.min.js"></script>
@@ -539,11 +436,9 @@ while ($row=mysqli_fetch_array($ret))
     <script src="assets/js/bootstrap-select.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
-
 	<!-- For demo purposes – can be removed on production -->
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
-	
 	<script>
 		$(document).ready(function(){ 
 			$(".changecolor").switchstylesheet( { seperator:"color"} );
@@ -552,14 +447,10 @@ while ($row=mysqli_fetch_array($ret))
 				return false;
 			});
 		});
-
 		$(window).bind("load", function() {
 		   $('.show-theme-options').delay(2000).trigger('click');
 		});
 	</script>
 	<!-- For demo purposes – can be removed on production : End -->
-
-	
-
 </body>
 </html>
