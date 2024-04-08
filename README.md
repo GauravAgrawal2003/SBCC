@@ -1,2 +1,2 @@
 # SBCC
-hello SBCC
+Skill Based Credit Course
